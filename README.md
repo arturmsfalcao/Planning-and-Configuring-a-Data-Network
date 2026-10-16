@@ -50,7 +50,7 @@ Requirements: GNS3 2.2.54 or later and the Cisco IOU router image `i86bi-linux-l
 ## Repository structure
 
 ```
-├── docs/        Report (Portuguese) and full addressing table
+├── docs/        Report and assignment (Portuguese)
 └── gns3/        Portable GNS3 project (no IOU images) and topology diagram
 ```
 
