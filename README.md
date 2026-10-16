@@ -26,7 +26,7 @@ The complex is split into three geographic sectors (north, east, west), with the
 
 | Area | Implementation |
 |---|---|
-| **IPv4 addressing** | VLSM from `194.65.80.0/20`; private `/30` links (`172.16.0.0/16`) between routers to save public space; LANs sized to need (e.g. `/25`, `/27`, `/28`). Full table in [`docs/addressing-table.md`](docs/addressing-table.md) |
+| **IPv4 addressing** | VLSM from `194.65.80.0/20`; private `/30` links (`172.16.0.0/16`) between routers to save public space; LANs sized to need (e.g. `/25`, `/27`, `/28`) |
 | **OSPF (EAC)** | Multi-area OSPF with a virtual link from `EAC-R4` to router `1.1.1.7` (`EAC-R7`) across Area 1, with message-digest authentication |
 | **Protocol diversity** | No two units in the same sector run the same IPv4 routing protocol (e.g. in the north: OSPF at the EAC, RIPv2 at HP, EIGRP at BV), with redistribution at the borders for full reachability |
 | **EIGRP filtering** | In Operational Services, prefix-list `BLOQUEIO` on `SO-R2` denies `194.65.80.128/25` and permits everything else |
