@@ -18,7 +18,7 @@ The resort has a Central Administrative Building (**EAC**, 10 routers) and 7 uni
 | ADL | Sports & Leisure Area |
 | SO | Operational Services |
 
-The complex is split into three geographic sectors (north, east, west), with the EAC, the Conference Center and Operational Services in different sectors. Units connect to each other and to the EAC over 100 Mbps links. Every subnet has at least one end host.
+The complex is split into three geographic sectors (north, east, west), with the EAC, the Conference Center and Operational Services in different sectors.
 
 ![Network topology](gns3/topology.png)
 
